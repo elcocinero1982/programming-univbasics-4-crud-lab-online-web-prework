@@ -8,10 +8,10 @@ end
 
 def add_element_to_end_of_array(array, element)
   
- add_element_to_end_of_array.push("strawberry")
+ add_element_to_end_of_array.push("1")
 end 
 def add_element_to_start_of_array(array, element)
-  add_element_to_start_of_array.unshift("coconut")
+  add_element_to_start_of_array.unshift("strawberry")
 end
 
 def remove_element_from_end_of_array(array)
