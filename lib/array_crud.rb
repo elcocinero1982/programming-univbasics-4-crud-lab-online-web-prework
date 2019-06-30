@@ -7,10 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  
- add_element_to_end_of_array << "orange"
- p add_element_to_end_of_array
- ["apple", "pineapple", "lemon", "lime", "orange"]
+  add_element_to_end_of_array = ["apple", "orange"]
+add_element_to_end_of_array << "coconut"
 end 
 def add_element_to_start_of_array(array, element)
   add_element_to_start_of_array.unshift("strawberry")
